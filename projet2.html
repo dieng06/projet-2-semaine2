@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GâteauRapido</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  fixed-top " style="background-color: #ffb2a2 ; " >
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="Logo gateau.png"width="150" height="150"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#qui_sommes_nous">Accueil</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#nos_gâteaux" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nos Gâteaux
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#nos_gâteaux">Gâteau Anniversaire</a></li>
+                  <li><a class="dropdown-item" href="#nos_gâteaux">Gâteau Mariage</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#nos_gâteaux">Autre</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <form class="container-fluid justify-content-start">
+                <button class="btn btn-outline me-2"  style="background-color: #5d002c;"type="button">Commander</button>
+              </form>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+           
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide " >
+        <div class="carousel-indicators"> 
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="gateau mariage.jpg" class="d-block w-100" alt="autre occasion">
+            <div class="carousel-caption">
+              <h5>Rendez vos journées inoubliables</h5>
+              <p> Une véritable œuvre d'art sucrée prête à être dégustée pour célébrer une journée spéciale !</p>
+              <button class="btn btn-outline-secondary me-2" style="background-color: #5d002c;" type="button">Commander</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gb.jpg" class="d-block w-100" alt="Anniversaire">
+            <div class="carousel-caption">
+              <h5>Faites plaisir à vos proches</h5>
+              <p>Gâteau d'anniversaire exquis, prêt à déguster.</p>
+              <button class="btn btn-outline me-2" style="background-color: #5d002c;" type="button">Commander</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gw.jpg" class="d-block w-100" alt="mariage">
+            <div class="carousel-caption">
+              <h5>Jour spécial, Gâteau spécial</h5>
+              <p>Gâteau de mariage élégant et somptueux.</p>
+              <button class="btn btn-outline-secondary me-2" style="background-color: #5d002c;" type="button">Commander</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="about section-padding" id="about"  >
+        <h1 id="qui_sommes_nous">Bienvenu chez vous !</h1>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-12">
+					<div class="about-img1"><img alt="" class="img-fluid" src="gateau chocolat.jpg"></div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2 >QUI SOMMES NOUS ?</h2>
+						<p>GâteauRapido est née d’une passion pour les Gâteaux.
+                            Nous vous invitons à venir goûter ces petites et grandes merveilles qui vous volent un sourire à chaque découverte: Cupcakes , Layer cakes,....  
+                            Des gâteaux fait sur mesure, selon vos envies.
+                            <br>
+                            Notre devise: « une fête sans gâteau n’est qu’une simple réunion ! »</P>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+    <section class="about section-padding" id="about" style="background-color: #5d002c;">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text2">
+                        <h2>100 % Fait Maison</h2>
+						<h5>Notre Devise</h5>
+						<p>Pas de conservateurs, pas d’additifs et pas de préparations déjà faite, tout est fait-maison toujours le jour même avec des ingrédients de qualité.De la génoise à la crème en passant par les fruits soigneusement choisis chez les meilleurs agriculteurs locaux. </P>
+
+					</div>
+				</div>
+                <div class="col-lg-6 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="gban.jpg"></div>
+				</div>
+			</div>
+		</div>
+        <section class="about section-padding" id="about" style="background-color: #5d002c;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="about-img2"><img alt="" class="img-fluid" src="g59.jpg"></div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
+                        <div class="about-text3">
+                            <h5>Nous realisonns toutes vos envies ! </h5>
+                            <h2>Gâteaux sur mesure</h2>
+                            
+                            <p>Que ce soit un gateau d'anniversaire ou de Mariage, pour enfant, homme ou femme
+                                Donnez nous un thème et nous nous occupons de tout !  </P>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+	</section>
+    <section class="boutique"  style="background-color: #ffffff;">
+		<div class="container">
+            <div class="titre">
+            <h2 id="nos_gâteaux">Nos Gâteaux</h2>
+              </div>
+			<div class="row">
+				<div class="col-4">
+                    <img src="g24.png">
+                    <h3>Gâteau tropical au citron</h3>
+                    <p>5000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g23.png">
+                    <h3>Gâteau etoile au caramel</h3>
+                    <p>9000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g13.png">
+                    <h3>Marcel au Gateau</h3>
+                    <p>5000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g21.png">
+                    <h3>Gâteau au fromage aux fraises</h3>
+                    <p>10000 F cfa</p>
+                </div>	
+            </div>
+
+            <div class="row">
+				<div class="col-4">
+                    <img src="g4.png">
+                    <h3>Gâteau aux baies rouges</h3>
+                    <p>8000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g6.png">
+                    <h3>Gâteau aux carrotes et au noix</h3>
+                    <p>5000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g9.png">
+                    <h3>Gateau au chocolat prague</h3>
+                    <p>5000 F cfa</p>
+                </div>
+                <div class="col-4">
+                    <img src="g47.png">
+                    <h3>Mini Cheesecake choco aux cerises</h3>
+                    <p>15000 F cfa</p>
+                </div>	
+
+            </div>
+			</div>    
+    </section>
+    <div class="row" style="background-color: #ffffff;">
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                <div class="card-body">
+                    <i class="bi bi-truck"></i>
+                </div>
+            <div>
+                    <h3 class="card-title">Commandez la veille</h3>
+                    <p class="lead">Et faites vous livrer le lendemain</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                    <div class="card-body">
+                        <i class="bi bi-cash-stack"></i>
+                    </div>
+                <div>
+                        <h3 class="card-title">Paiement </h3>
+                        <p class="lead">Disponible sur place et en ligne</p>
+                </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                        <div class="card-body">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                    <div>
+                            <h3 class="card-title">Ouvert tout les jours</h3>
+                            <p class="lead">de 09H à 22H</p>
+                    </div>
+                    </div>
+                    </div>
+        </div>
+    
+
+    <section class="contact"  style="background-color: #ffffff;">
+        
+        <div class="container">
+            <div class="titre">
+            <h2 id="contact">Contact</h2>
+            </div>
+			<div class="row">
+				<div class="col-6">
+                    <div class="contact-form">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Votre Nom</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <label for="exampleFormControlInput1" class="form-label">Votre adresse email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-secondary mb-3" style="background-color: #ffb2a2;" >Envoyer</button>
+                </div>
+            </div>
+                    <div class="col-6">
+                        <div class="map-area">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7717.4282997502505!2d-17.474319659835494!3d14.728746419418833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d52c7afaee7%3A0x324c3c7430df733b!2sLiberte%206%20Extension%2C%20Dakar!5e0!3m2!1sen!2ssn!4v1696941132059!5m2!1sen!2ssn" ></iframe>
+    </div>
+     </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                <div class="phone">
+                    <i class="bi bi-telephone-fill"></i>
+                </div>
+            <div>
+                    <h3 class="card-title">+221 33 825 18 19 </h3>
+                    <h3 class="card-title">+221 76 418 15 12 </h3>
+                    
+            </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                    <div class="lieu">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+                <div>
+                        <h3 class="card-title">Rond point Liberté 6.Dakar </h3>
+                        <h3 class="card-title">Immeuble p </h3>
+                        
+                </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-dark text-center  pb-2 " style="background-color: #ffb2a2;">
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                    <div>
+                            <h3 class="card-title">gateaurapido@gmail.com </h3>
+                            <h3 class="card-title">contact@gateau.com</h3>
+                            
+                    </div>
+                    </div>
+                    </div>
+
+    </div>
+    </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                       
+                    <p>Nous fesons des gâteaux sur mesure que ce soit un gateau d'anniversaire ou de Mariage, pour enfant, homme ou femme.<br>
+                        Donnez nous un thème et nous nous occupons de tout ! </p>
+                    <h3>Nous Acceptons</h3>
+                    <div class="card-area">
+                            <i class="fa fa-cc-visa"></i>
+                            <i class="fa fa-credit-card"></i>
+                            <i class="fa fa-cc-mastercard"></i>
+                            <i class="fa fa-cc-paypal"></i>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>Contactez-nous</h2>
+                    <ul>
+                        <li><a href="#">33 825 18 19</a></li>
+                        <li><a href="#">76 418 15 12</a></li>
+                        <li><a href="#">Rond pont Liberté 6</a></li>
+                        <li><a href="#">En face Samu Municipal </a></li>
+                        <li><a href="#">contact@gateau.com</a></li>
+
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>Lien Utils</h2>
+                    <ul>
+                        <li><a href="#qui_sommes_nous">Qui sommes-nous ?</a></li>
+                        <li><a href="#nos_gâteaux">Gâteaux d'anniversaire</a></li>
+                        <li><a href="#nos_gâteaux">Gâteaux de mariage</a></li>
+                        <li><a href="#nos_gâteaux">Autres occasions</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>Newsletter</h2>
+                        <p>Soyez le premier informé</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                        </div>
+                        <h2>Suivez-nous sur</h2>
+                        <p class="socials">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-snapchat"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>
